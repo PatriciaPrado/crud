@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cadastro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <form>
+        <div class="container">
+                <div class="row" style="border: 2px; color: black">
+                    <div class="col-lg-6">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite o nome completo"> <br>
+        
+                        <label for="text">Sexo</label>
+                            <select id="sexo" name="sexo">
+                                <option value="f">Feminino </option>
+                                <option value="m">Masculino </option><br>
+                            </select>
+        
+                        <button type="button" id="cadastrar" name="cadastrar" class="btn btn-secondary">Cadastrar</button>
+                    </div>
+                </div>
+            </div>
+    </form>
+    
+
+
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"> </script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/cadastro.js"></script>
+</body>
+
+</html>
